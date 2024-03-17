@@ -1,6 +1,6 @@
 安全定义=威胁模+安全目标
 威胁模型
-		唯密文攻击（ciphertext only attack，COA）：攻击者通过同一密钥加密的密文，恢复出明文或者密钥
+	  唯密文攻击（ciphertext only attack，COA）：攻击者通过同一密钥加密的密文，恢复出明文或者密钥
 		已知明文攻击（Known Plaintext Attack，KPA）：攻击者通过同一密钥加密的明文/密文对,恢复出其他密文的明文或者密钥
 		选择明文攻击（Chosen Plaintext Attack, CPA）：攻击方的目的是识别出密文C中加密的是m0还是m1。这其中的假设是攻击者可以选择任意
 的明文让（加密方）加密并能得到相应的密文
